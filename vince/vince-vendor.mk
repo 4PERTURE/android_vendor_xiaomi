@@ -1084,7 +1084,26 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/xiaomi/vince/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/xiaomi/vince/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
-
+    vendor/xiaomi/vince/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
+    vendor/xiaomi/vince/system/lib/android.hardware.camera.common@1.0.so:system/lib/android.hardware.camera.common@1.0.so
+    vendor/xiaomi/vince/system/lib/android.hardware.camera.device@1.0.so:system/lib/android.hardware.camera.device@1.0.so
+    vendor/xiaomi/vince/system/lib/android.hardware.camera.device@3.2.so:system/lib/android.hardware.camera.device@3.2.so
+    vendor/xiaomi/vince/system/lib/android.hardware.camera.device@3.3.so:system/lib/android.hardware.camera.device@3.3.so
+    vendor/xiaomi/vince/system/lib/android.hardware.camera.device@3.4.so:system/lib/android.hardware.camera.device@3.4.so
+    vendor/xiaomi/vince/system/lib/android.hardware.camera.provider@2.4.so:system/lib/android.hardware.camera.provider@2.4.so
+    vendor/xiaomi/vince/system/lib/libcamera_client.so:system/lib/libcamera_client.so
+    vendor/xiaomi/vince/system/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so
+    vendor/xiaomi/vince/system/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so
+    vendor/xiaomi/vince/system/lib/libcameraservice.so:system/lib/libcameraservice.so
+    vendor/xiaomi/vince/system/lib64/android.hardware.camera.common@1.0.so:system/lib64/android.hardware.camera.common@1.0.so
+    vendor/xiaomi/vince/system/lib64/android.hardware.camera.device@1.0.so:system/lib64/android.hardware.camera.device@1.0.so
+    vendor/xiaomi/vince/system/lib64/android.hardware.camera.device@3.2.so:system/lib64/android.hardware.camera.device@3.2.so
+    vendor/xiaomi/vince/system/lib64/android.hardware.camera.device@3.3.so:system/lib64/android.hardware.camera.device@3.3.so
+    vendor/xiaomi/vince/system/lib64/android.hardware.camera.device@3.4.so:system/lib64/android.hardware.camera.device@3.4.so
+    vendor/xiaomi/vince/system/lib64/android.hardware.camera.provider@2.4.so:system/lib64/android.hardware.camera.provider@2.4.so
+    vendor/xiaomi/vince/system/lib64/libkeystore_binder.so:system/lib64/libkeystore_binder.so
+    vendor/xiaomi/vince/system/lib64/libkeystore-engine.so:system/lib64/libkeystore-engine.so
+	
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
     libts_face_beautify_hal \
